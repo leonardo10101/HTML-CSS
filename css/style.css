@@ -1,77 +1,98 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap');
+
+body {
     margin: 0;
     padding: 0;
     text-align: center;
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #a09481 url();
+    background: #faa8a7 url();
     background-size: 20%;
     background-repeat: no-repeat;
-    }
-    .header{
-        font-style: italic;
-        font-size: large;
-        text-align: center;
-    }
-    .container{
-        margin: 2% auto;
-        width: 80%;
-        text-align: left;
-        background:  #BAAA8D;
-        border: 1px solid black;
+    font-family: 'Vesper Libre', serif;
 
-    }
-  
-    .mainav{
-        background-color: #BAAA8D ;
-        color: black;
-        padding: 0 2%;
-        margin-bottom: 5%;
-        margin-top: 5%;
-    }
+}
 
-    .mainav li{
-        display: inline;
-        padding: 0 2%;     
-        margin-left: 11%;
-        border-left: 2px #A1947C solid ;
-        border-right:2px #A1947C solid ;
-        border-bottom: 2px #A1947C solid;
-        border-top: 2px #A1947C solid;
-       
-        
-    }
+.logo {
+    float: left;
+    width: 13%;
+    height: 12%;
+}
 
-    .mainav li a{
-        text-decoration: none;
-        color: #000000;
-        font-size: 15px;
-    }
+.header {
+    font-style: italic;
+    font-size: large;
+    text-align: left;
+    margin-left: 1%;
+    padding: 0.2%;
 
-    .mainav li a:hover{
-        text-decoration: none;
-        color: #423C32;
-        font-size: 16px;
-    }
-    .contents{
-        background-color: #E0CDAB;
-        text-align: center;
-        border: 1px solid black;
-        padding: 1%;
-        
-    }
-    .menuL{  
-        background-color: #E0CDAB ;
-        color: black;
-        padding: 0 2%;
-        margin-top: 2%;
+}
+
+.container {
+    margin: 2% auto;
+    width: 80%;
+    text-align: left;
+    background: #faa8a7;
+    border: 1px solid black;
+
+}
+
+.mainav {
+    color: black;
+    padding: 0 2%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.mainav li {
+    display: inline;
+    padding: 0 2%;
+    margin-left: 9%;
+    border-right: 2px #995857 solid;
 
 
-    }
-    .menuL li{
-  display: inline;
-  padding:  0 9%;
+}
 
-    }
-    423C32
-    BAAA8D
+.mainav li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+}
+
+.mainav li a:hover {
+    text-decoration: none;
+    color: #423C32;
+    font-size: 16px;
+}
+
+.contents {
+    background-color: #FFC5C4;
+    text-align: center;
+    border: 1px solid black;
+    padding: 1%;
+
+}
+
+.menuL li a {
+    color: black;
+    padding: 0 5%;
+    margin-top: 2%;
+    text-decoration: none;
+
+}
+
+.menuL li {
+    display: inline;
+    padding: 7.21%;
+}
+.creators{
+
+    text-align: center;
+    padding: 1%;
+    border: #000000 1px solid;
+}
+.creator{
+    te
+    float: right;
+    width: 15%;
+}
