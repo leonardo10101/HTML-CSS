@@ -28,9 +28,33 @@
             </ul>
         </div>
         <div class="contents">
-
-            Angels Soap Co. is company created 1996, bringing soaps created in an artisanal way to the world, using fat
-            and products of the best qualities.
+            <form>
+                <fieldset class="grupo">
+                    <legend>Contact</legend>
+                    <br>
+                    <label>Name:</label>
+                    <input type="text" name="nome" maxlength="50" required>
+                    <br><br>
+                    <label>E-mail:</label>
+                    <input type="text" name="email" required>
+                    <br><br>
+                    <label>Select the Subject</label>
+                    <select name="subject">
+                        <option value="0">Select</option>
+                        <option value="1">Join the Club</option>
+                        <option value="2">Prices for Dealers</option>
+                        <option value="3">Suggestions</option>
+                        <option value="4">Others</option>
+                    </select>
+                    <br><br>
+                    <label>Your mensage:</label>
+                    <br>
+                    <textarea name="mensage" rows="5"></textarea>
+                    <br><br>
+                    <input type="submit" name="Submit" value="SEND">
+                    <input type="reset" name="Reset" value="CLEAR">
+                </fieldset>
+            </form>
 
         </div>
         <div class="menuL">
