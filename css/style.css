@@ -3,7 +3,6 @@
 body {
     margin: 0;
     padding: 0;
-    text-align: center;
     color: black;
     background: #faa8a7 url();
     background-size: 20%;
@@ -138,4 +137,7 @@ body {
     float: left;
     padding: 1%;
     margin-left: 10%;
+}
+.logoCo{
+    text-align: center;
 }
